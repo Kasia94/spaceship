@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaceship</title>
+<link rel="stylesheet" href="./css/style.css"/>
+<script defer src="./js/Game.js"></script>
+</head>
+<body>
+    <div class="container" data-container >
+        <div class="spaceship" data-spaceship></div>
+        <section class="information">
+            <article class="information__content" data-score>Score: 0</article>
+            <article class="information__content" data-lives>Lives: 3</article>
+        </section>
+        <div class="modal hide" data-modal>
+            <div class="modal__content">
+                <p class="modal__text" data-score-info>Przegrałeś! Zacznij nową grę</p>
+                <button class="modal__button" data-button>Nowa gra</button>
+            </div>
+        </div>
+    </div> 
+    
+</body>
+</html>
